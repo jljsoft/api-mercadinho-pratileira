@@ -1,4 +1,4 @@
-namespace Mercadinho.Prateleira.Domain
+﻿namespace Mercadinho.Prateleira.Domain
 {
     public class Estoque
     {

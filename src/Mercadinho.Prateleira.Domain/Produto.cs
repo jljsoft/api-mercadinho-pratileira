@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Mercadinho.Prateleira.Domain
 {
@@ -9,5 +9,6 @@ namespace Mercadinho.Prateleira.Domain
         
         public ICollection<Categoria> Categorias { get; set; }
         public Estoque Estoque { get; set; } = default;
+        
     }
 }

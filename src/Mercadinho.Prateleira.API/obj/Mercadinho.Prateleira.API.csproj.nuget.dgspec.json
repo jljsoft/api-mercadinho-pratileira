@@ -29,8 +29,8 @@
               "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Domain/Mercadinho.Prateleira.Domain.csproj": {
                 "projectPath": "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Domain/Mercadinho.Prateleira.Domain.csproj"
               },
-              "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infraestrutura.Data/Mercadinho.Prateleira.Infraestrutura.Data.csproj": {
-                "projectPath": "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infraestrutura.Data/Mercadinho.Prateleira.Infraestrutura.Data.csproj"
+              "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infrastructure.Data/Mercadinho.Prateleira.Infrastructure.Data.csproj": {
+                "projectPath": "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infrastructure.Data/Mercadinho.Prateleira.Infrastructure.Data.csproj"
               }
             }
           }
@@ -45,9 +45,31 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "FluentValidation": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[10.1.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
             }
           },
           "imports": [
@@ -124,14 +146,14 @@
         }
       }
     },
-    "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infraestrutura.Data/Mercadinho.Prateleira.Infraestrutura.Data.csproj": {
+    "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infrastructure.Data/Mercadinho.Prateleira.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infraestrutura.Data/Mercadinho.Prateleira.Infraestrutura.Data.csproj",
-        "projectName": "Mercadinho.Prateleira.Infraestrutura.Data",
-        "projectPath": "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infraestrutura.Data/Mercadinho.Prateleira.Infraestrutura.Data.csproj",
+        "projectUniqueName": "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infrastructure.Data/Mercadinho.Prateleira.Infrastructure.Data.csproj",
+        "projectName": "Mercadinho.Prateleira.Infrastructure.Data",
+        "projectPath": "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infrastructure.Data/Mercadinho.Prateleira.Infrastructure.Data.csproj",
         "packagesPath": "/home/joaoluks/.nuget/packages/",
-        "outputPath": "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infraestrutura.Data/obj/",
+        "outputPath": "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infrastructure.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/joaoluks/.nuget/NuGet/NuGet.Config"
@@ -164,11 +186,11 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[5.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[5.0.6, )"
             }
           },
           "imports": [
