@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EwghC4HbGNdKmWwfPMAL+G7ONtQvbsVEFjC8Da26Xnkwfpn4jTujY8qPb6UCIiKjn2Oc7zIfsv3wduAPFwNHTw==",
+  "dgSpecHash": "pBYiV4qYpJcc/fL9ndXfCCqIN2ZN9A5IR/0WT0RiIIC6jpt90mIw9m38IvUpifnwZkIgWMZs/oH87Q+jhyTpJg==",
   "success": true,
   "projectFilePath": "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Infraestrutura.Data/Mercadinho.Prateleira.Infraestrutura.Data.csproj",
   "expectedPackageFiles": [

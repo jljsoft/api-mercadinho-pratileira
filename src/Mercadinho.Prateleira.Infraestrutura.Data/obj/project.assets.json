@@ -1481,6 +1481,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Mercadinho.Prateleira.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Mercadinho.Prateleira.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mercadinho.Prateleira.Domain.dll": {}
+        }
       }
     }
   },
@@ -5693,10 +5703,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Mercadinho.Prateleira.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Mercadinho.Prateleira.Domain/Mercadinho.Prateleira.Domain.csproj",
+      "msbuildProject": "../Mercadinho.Prateleira.Domain/Mercadinho.Prateleira.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Mercadinho.Prateleira.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.12"
     ]
@@ -5725,7 +5741,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Domain/Mercadinho.Prateleira.Domain.csproj": {
+              "projectPath": "/home/joaoluks/ProjetoAspNet/ProjetoDIO/api-mercadinho-pratileira/src/Mercadinho.Prateleira.Domain/Mercadinho.Prateleira.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
